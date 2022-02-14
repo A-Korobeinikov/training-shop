@@ -1,0 +1,45 @@
+.contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 85px;
+    background-color: #000;
+}
+
+.preheader {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.contact img {
+    padding-right: 10px;
+}
+
+.social-block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social {
+    padding-left: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
