@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./main-images/main-image.jpg";
+// import Banner from "./main-images/main-image.jpg";
 import WomenCategory from "./main-images/women-categories.jpg";
 import MenCategory from "./main-images/men-categories.jpg";
 import Accessories from "./main-images/accessories-image.jpg";
@@ -8,7 +8,7 @@ import ArrowRight from "./main-images/arrow-slider-right.svg";
 import Shipping from "./main-images/shipping-ico.svg";
 import Return from "./main-images/return-ico.svg";
 import Support from "./main-images/support-ico.svg";
-import "./Main.css"
+import "./Main.css";
 
 
 const Main = () => {

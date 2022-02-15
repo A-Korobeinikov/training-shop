@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: url(./main-images/main-image.jpg) 50%/cover no-repeat;
+    background: url('./main-images/main-image.jpg') 50%/cover no-repeat;
     height: 100%;
     padding: 0 24px;
 
