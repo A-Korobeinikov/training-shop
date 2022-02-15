@@ -1,0 +1,32 @@
+.content {
+    padding: 0 20 px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.menu-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu-item {
+    padding-left: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+}
+
+.side-menu-item {
+    padding-left: 24px;
+}
