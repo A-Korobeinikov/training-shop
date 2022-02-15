@@ -1,21 +1,24 @@
 .main {
     padding-top: 32px;
 }
-.main-content{
+
+.main-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .banner-slider {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     background: url(./main-images/main-image.jpg) 50%/cover no-repeat;
     height: 100%;
-    padding: 0 24px;    
-    
+    padding: 0 24px;
+
 }
+
 .banner-slider-left {
     border-radius: 50%;
     width: 40px;
@@ -23,12 +26,14 @@
     background: #FFFFFF;
     opacity: 0.6;
 }
+
 .main-description {
     background-color: #FFFFFF;
     text-align: center;
     padding: 24px 32px;
     margin: 0px 61px;
 }
+
 .main-subtitle {
     font-style: normal;
     font-weight: 600;
@@ -38,6 +43,7 @@
     color: #121212;
     opacity: 0.4;
 }
+
 .main-title {
     font-style: normal;
     font-weight: 600;
@@ -47,6 +53,7 @@
     color: #121212;
     padding-top: 14px;
 }
+
 .banner-slider-right {
     border-radius: 50%;
     width: 40px;
@@ -54,50 +61,58 @@
     background: #FFFFFF;
     opacity: 0.6;
 }
+
 .main-categories {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     align-content: space-between;
     padding-left: 30px;
 }
+
 .sex-categories {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     padding-bottom: 30px;
 }
 
-.women-category { 
-}
+.women-category {}
+
 .link-women-section {
     position: relative;
 }
+
 .title-women-section {
     position: absolute;
     top: 76px;
     left: 69px;
 }
+
 .link-men-section {
     position: relative;
 }
+
 .title-men-section {
     position: absolute;
     top: 76px;
     left: 69px;
 }
-.men-category { 
-}
-.accessories-category { 
-}
+
+.men-category {}
+
+.accessories-category {}
+
 .link-accessories-section {
     position: relative;
 }
+
 .title-accessories-section {
     position: absolute;
     top: 106px;
     left: 187px;
 }
+
 .title-main-category {
     font-style: normal;
     font-weight: 600;
@@ -107,7 +122,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #121212;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 4px;
     padding: 13px 24px;
 }
@@ -116,20 +131,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding-top: 32px;
 }
+
 .benefits-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
-.benefits-descriptions{
+.benefits-descriptions {
     padding-left: 8px;
 }
-.title-benefits{
+
+.title-benefits {
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -139,6 +156,7 @@
     color: #121212;
     padding-bottom: 4px;
 }
+
 .subtitle-benefits {
     font-style: normal;
     font-weight: 500;

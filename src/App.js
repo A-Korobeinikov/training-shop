@@ -1,8 +1,7 @@
 import React from 'react';
 import './index.css';
 import './App.css';
-import PreHeader from './components/header/assets/PreHeader';
-import Header from './components/header/assets/Header';
+import Header from './components/header/Header';
 import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 
