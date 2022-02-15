@@ -13,10 +13,10 @@ import "./Main.css"
 
 const Main = () => {
     return (
-        <div className="main">
+        <div className="app-wrapper">
+            <div className="main content">
             <div className="main-content">
                 <div clasName= "main-slider-banner">
-                    <img className="banner-image" src ={Banner} />
                     <div className="banner-slider">
                         <button className="banner-slider-left"><img src ={ArrowLeft} /></button>
                         <div className="main-description">
@@ -74,10 +74,11 @@ const Main = () => {
                     </div>
                     <div className="support-description benefits-descriptions">
                         <p className="support-title title-benefits">FREE SHIPPING</p>
-                        <p className="support-subtitle subtitle-benefits">On all UA order or order above $100</p>
+                        <p className="support-subtitle subtitle-benefits">Contact us 24 hours a day, 7 days a week</p>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

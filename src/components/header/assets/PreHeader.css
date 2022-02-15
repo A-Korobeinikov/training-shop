@@ -2,9 +2,9 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 6px 85px;
+    padding: 6px 0;
     background-color: #000;
+    padding: 6px 85px;
 }
 
 .preheader {
@@ -12,12 +12,14 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items:center;
 }
 
 .contact {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
     padding-right: 30px;
     font-style: normal;

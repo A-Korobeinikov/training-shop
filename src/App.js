@@ -4,18 +4,17 @@ import './App.css';
 import PreHeader from './components/header/assets/PreHeader';
 import Header from './components/header/assets/Header';
 import Main from './components/main/Main';
+import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
-    <div className='app-wrapper'>
-      <PreHeader />   
-      <header className='content'>    
+    <div>     
       <Header />
-      <Main />
-      </header>
-
+      <Main />    
+      <Footer />
     </div>
+
   );
 }
 
