@@ -12,16 +12,16 @@ const PreHeader = () => {
         <div className="app-wrapper">
             <div className="contacts">
                 <div className=" preheader">
-                    <a href="#" className="contact phone">
-                        <img src={phone} />
+                    <a href="#top" className="contact phone">
+                        <img src={phone} alt = "phone"/>
                         +375 29 100 20 30
                     </a>
-                    <a href="#" className="contact location">
-                        <img src={location} />
+                    <a href="#top" className="contact location">
+                        <img src={location} alt = "location"/>
                         Belarus, Gomel, Lange 17
                     </a>
-                    <a href="#" className="contact clock">
-                        <img src={clock} />
+                    <a href="#top" className="contact clock">
+                        <img src={clock} alt = "clock"/>
                         All week 24/7
                     </a>
                 </div>

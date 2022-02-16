@@ -9,7 +9,7 @@ const Subscribe = () => {
             <div className="subscribe">
                 <div className="content">
                     <div className="img-woman-subscribe">
-                        <img src={woman} />
+                        <img src={woman} alt=""/>
                     </div>
                     <div className="offer-subscribe">
                         
@@ -23,7 +23,7 @@ const Subscribe = () => {
                         </form>
                     </div>
                     <div className="img-man-subscribe">
-                        <img src={man} />
+                        <img src={man} alt=""/>
                     </div>
                 </div>
             </div>

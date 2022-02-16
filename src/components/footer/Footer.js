@@ -30,16 +30,16 @@ const Footer = () => {
                     </div>
                     <ul className="nav-list-content">
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Men</a>
+                            <a href="#top" className="nav-item-link">Men</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Women</a>
+                            <a href="#top" className="nav-item-link">Women</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Accessories</a>
+                            <a href="#top" className="nav-item-link">Accessories</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Beauty</a>
+                            <a href="#top" className="nav-item-link">Beauty</a>
                         </li>
                     </ul>
                 </div>
@@ -49,16 +49,16 @@ const Footer = () => {
                     </div>
                     <ul className="nav-list-content">
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">About Us</a>
+                            <a href="#top" className="nav-item-link">About Us</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Contacts Us</a>
+                            <a href="#top" className="nav-item-link">Contacts Us</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Blog</a>
+                            <a href="#top" className="nav-item-link">Blog</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">FAQs</a>
+                            <a href="#top" className="nav-item-link">FAQs</a>
                         </li>
                     </ul>
                 </div>
@@ -68,16 +68,16 @@ const Footer = () => {
                     </div>
                     <ul className="nav-list-content">
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Terms & Conditions</a>
+                            <a href="#top" className="nav-item-link">Terms & Conditions</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Returns & Exchanges</a>
+                            <a href="#top" className="nav-item-link">Returns & Exchanges</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Shipping & Delivery</a>
+                            <a href="#top" className="nav-item-link">Shipping & Delivery</a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link">Privacy & Poilicy</a>
+                            <a href="#top" className="nav-item-link">Privacy & Poilicy</a>
                         </li>
                     </ul>
                 </div>
@@ -87,26 +87,26 @@ const Footer = () => {
                     </div>
                     <ul className="nav-list-content">
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link contact-footer">
-                                <img src={location} />
+                            <a href="#top" className="nav-item-link contact-footer">
+                                <img src={location} alt="location"/>
                                 Belarus, Gomel, Lange 17
                             </a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link contact-footer">
-                                <img src={phone} />
+                            <a href="#top" className="nav-item-link contact-footer">
+                                <img src={phone} alt="phone"/>
                                 +375 29 100 20 30
                             </a>
                         </li>
                         <li className="nav-item-links">
-                            <a href="#" className="nav-item-link contact-footer">
-                                <img src={clock} />
+                            <a href="#top" className="nav-item-link contact-footer">
+                                <img src={clock} alt="clock"/>
                                 All week 24/7
                             </a>
                         </li>
                         <li className="nav-item-links">
                             <a href="mail:info@clevertec.ru" className="nav-item-link contact-footer">
-                                <img src={info} />
+                                <img src={info} alt="info"/>
                                 info@clevertec.ru
                             </a>
                         </li>
@@ -119,7 +119,7 @@ const Footer = () => {
                     Copyright © 2032 all rights reserved
                 </div>
                 <div className="pay-copyright">
-                    <img src={pay} />
+                    <img src={pay} alt="pay"/>
                 </div>
                 <a href="https://clevertec.ru/study/frontend.html" className="link-copywrite">
                     Clevertec.ru/training
