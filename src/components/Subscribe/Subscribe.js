@@ -15,7 +15,7 @@ const Subscribe = () => {
                         
                         <div className="form-description-subscribe">
                             <p className="subtitle-subscribe">Special Offer</p>
-                            <p className="title-subscribe">Subscribe <br/> And<span className="subscribe-effect">Get 10% Off</span></p>
+                            <p className="title-subscribe">Subscribe <br/> And <span className="subscribe-effect">Get 10% Off</span></p>
                         </div>
                         <form className="form-subscribe">
                             <input type="text" placeholder="Enter your email" className="input-subscribe"></input>
