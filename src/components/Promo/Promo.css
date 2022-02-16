@@ -1,0 +1,47 @@
+.colection-promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 96px;
+}
+.lookbook-promo {
+    background: url('./promo-img/lookbook-img.jpg') 50%/cover no-repeat;
+    width: 540px;
+    height: 260px;
+} 
+.description-promo {
+    margin: 95px 123px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 24px;
+} 
+.subtitle-promo {
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+}
+.title-promo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.sale-promo {
+    background: url('./promo-img/sale-img.jpg') 50%/cover no-repeat;
+    width: 540px;
+    height: 260px;
+}
+.sale-effect {
+    color: #E91E63;
+}
