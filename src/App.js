@@ -6,6 +6,7 @@ import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 import Promo from './components/Promo/Promo';
 import Subscribe from './components/subscribe/Subscribe';
+import ProductWomen from './components/products/women/Women';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div>     
       <Header />
       <Main /> 
+      <ProductWomen />
       <Promo />
       <Subscribe />
       <Footer />
